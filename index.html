@@ -12,11 +12,12 @@
 }
       path = getQueryVariable("path")
       if (path) {
-      window.location.href="https://luohua-onemanager.herokuapp.com/" + path
+          url = "https://luohua-onemanager.herokuapp.com/" + path
       }
       else {
-        window.location.href="https://luohua-onemanager.herokuapp.com/"
+          url = "https://luohua-onemanager.herokuapp.com/"
       }
+      window.location.href = url
     </script>
   </head>
   <body>
